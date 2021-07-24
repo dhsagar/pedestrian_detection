@@ -13,7 +13,7 @@ This is a short summary of the pedestrian detection project. This project is don
 - xml.etree.ElementTree to work with xml data
 -datetime to get timestamp
   
-##Coding Explanation
+## Coding Explanation
 Whole project contains four Python(.py) files.
 - pedestrian.py: It takes video file as input and detect and count pedestrians in each frame. It creates ‘output.txt’ to write pedestrian info in it. In every 10 frames programs calculates and write the timestamp, a session id (SSID), FPS and Number of pedestrians to the text file that has been created.
 - update.py: This program takes ‘output.txt’ as input and update the pedestrian database according to the information retrieved from the .txt file. It also writes the information to the ‘output.xml’ file.
@@ -25,7 +25,8 @@ This project folder also includes
 - ‘haarcascade_fullbody.xml’ and ‘output.xml’
 - ‘output.txt’
 - ‘pedestrian_pedestrian_info.sql’
-To run and test this project, follow these simple steps:
+## Run the project 
+follow these simple steps:
 - import .sql file to to MySQL server
 - keep the Python files, input video and ‘output.xml’ in the same folder.
 - install all the dependencies listed in necessary import section above.
