@@ -1,4 +1,4 @@
-#Pedestrian Detection
+## Pedestrian Detection
 This is a short summary of the pedestrian detection project. This project is done as a task for master thesis entrance test.
 ## Objectives
 - Detect and count pedestrian in each frame from an input video file.
